@@ -1,0 +1,195 @@
+<html>
+<head>
+    <script>
+        function refreshPage(){
+            location.reload();
+        }
+    </script>
+
+    <style>
+.para{
+            background-color: lightskyblue;
+            color: 041f5a;
+            padding-inline-start: 0cm;
+            padding-inline-end: 0cm;
+            background-image: url("contactusbg.jpg");
+        }
+        .band{
+            background-image: url("contactus.jpg");
+
+        }
+
+
+        .banner{
+    width:100%;
+    height:20%;
+    background-image:url("contactust.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width:85%;
+    margin:auto;
+    padding: 35px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.logo{
+    width:120px;
+    cursor:pointer;
+}
+
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color: white;
+    text-transform:uppercase;
+    
+}
+
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width: 0;
+    background : white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #041f5a;
+  color: white;
+}
+
+.fa-twitter {
+  background: white;
+  color: white;
+}
+input[type=text], select, textarea {
+    font-size: 30px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+    font-size: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: #4AA4E9;
+  padding: 20px;
+}
+    </style>
+<title>
+CONTACT US
+</title>
+</head>
+    
+    
+    <body class="para">
+                <div class="banner">
+            <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+              <li><a href="social.html"  style="font-size: 25;" width="75%" height="75%">FOLLOW US</a></li>
+              <li><a href="contactus.html"  style="font-size: 25;" width="75%" height="75%">CONTACT US</a></li>
+              <li><a href="aboutus.html" style="font-size: 25;"  width="75%" height="75%">TEAM INFO</a></li>
+              <li><a href="products.html"  style="font-size: 25;" width="75%" height="75%">PRODUCTS</a></li>
+              <li><a href="whythis.html" style="font-size: 25;"  width="75%" height="75%">WHY THIS?</a></li>
+            </ul>
+            
+        
+        </div>
+        </div>
+        <div2 class="band">
+            <img src="contactustop.jpg" alt="alt" width="100%" height="25%">
+                    </div2>
+            <br><br>
+<br>
+<br>
+<br><BR>
+        <div2 class="band">
+            <div class="container" width="60%" style="padding-left: 3cm;padding-right: 3cm;">
+                <form action="https://formspree.io/f/mnqwowdw" method="POST">
+                  <input type="hidden" name="_subject" value="New email woooo!">
+                  <label for="">Name</label>
+                  <input type="text" id="Name" name="Name" placeholder="Name" required><br>
+              
+                  <label for="Email">Email-Id</label>
+                  <input type="text" id="email" name="Email" placeholder="Email" required><br>
+                  <input type="hidden" name="_next" value="thanks.html">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="INDIA">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="AUSTRALIA">AUSTRALIA</option>
+                  </select>
+                 <br>
+                  <label for="mail">Mail</label><br>
+                  <textarea id="mail" name="mail" placeholder="Please enter your mail here." style="height:200px"></textarea><br>
+              
+                  <button type="submit" style="font-size: 30px;">SEND</button>
+
+                  <p>If you want to send this blog website team the email directly, please click on the link below that will be redirected to your email where you can contact them directly. Thank you.</p>
+
+                  <p><a style="color: whitesmoke;" href="mailto:cherukuridsstarun@gmail.com">Send email</a></p>
+              
+                </form>
+              </div>
+        </div2>
+        <BR>
+
+<br>
+<br>
+<br>
+
+
+</body>
+
+</html>

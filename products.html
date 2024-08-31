@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+.zoom {
+  transition: transform .3s; 
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.zoom2 {
+  transition: transform .3s; 
+  margin: 0 auto;
+}
+
+.zoom2:hover {
+  transform: scale(1.2);
+}
+
+        .para{
+            background-color: #037F44;
+            color: white;
+            padding-inline-start: 3cm;
+            padding-inline-end: 3cm;
+        }
+        .band{
+            background-image: url(surfacebg.jpg);
+
+        }
+
+
+
+        .banner{
+    width:100%;
+    height:20%;
+    background-image: url(greenpolytop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width:85%;
+    margin:auto;
+    padding: 35px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.logo{
+    width:120px;
+    cursor:pointer;
+}
+
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color: white;
+    text-transform:uppercase;
+    
+}
+
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width: 0;
+    background : #f44336;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+   * {box-sizing: border-box;}
+   .img{
+      display: inline-block;
+   }
+   .img-zoom-container {
+      position: relative;
+   }
+   .img-zoom-zoomLens {
+      position: absolute;
+      border: 1px solid #d4d4d4;
+      width: 50px;
+      height: 50px;
+   }
+   .myresult{
+      display: inline-block;
+   }
+   .img-zoom-result {
+      border: 1px solid #d4d4d4;
+   }
+
+
+</style>
+</head>
+
+
+
+
+
+
+<body class="para">
+   <div class="banner">
+      <div class="navbar">
+         <img src="logo.png" class="logo">
+            <ul>
+               <li><a href="social.html"  style="font-size: 25;" width="75%" height="75%">FOLLOW US</a></li>
+                <li><a href="contactus.html"  style="font-size: 25;" width="75%" height="75%">CONTACT US</a></li>
+                <li><a href="aboutus.html" style="font-size: 25;"  width="75%" height="75%">TEAM INFO</a></li>
+                <li><a href="products.html"  style="font-size: 25;" width="75%" height="75%">PRODUCTS</a></li>
+                <li><a href="whythis.html" style="font-size: 25;"  width="75%" height="75%">WHY THIS?</a></li>
+            </ul>
+            
+        
+        </div>
+        </div>
+        <div2 class="band">
+         <img src="producttop.jpg" alt="alt" width="100%" height="25%">
+                 </div2>
+         <br><br>
+       <U><CENTER> <h1 style="font-size: 2cm;"> PRODUCT DESCRIPTION</h1></U></CENTER>
+<h1>This book is everything that we have to give to you. We have stored every <u>single piece of information</u> that we have which may help you
+   when you want help while surfing the web. This is like the <u>hitch-hiker's guide to the darker layers of the web</u>. The <u>audio book</u> to this book will be in the <u>bottom section</u> of this page. Please listen to it in case you do not have time to read the soft copy. This content is downloadable in <u>KINDLE</u> version and on every e-book platform. Hope you enjoy the book. Thank you.
+</h1>
+
+<center><h1>Hover over the image on the bottom to see it zoomed down below</h1></center>
+
+
+<div class="img-zoom-container">
+<img class="myimage" src="book4.jpg" style="width: 1000px; height: 1000px;padding-bottom: 2cm;">
+
+<BR>
+<div class="myresult" class="img-zoom-result" style="width: 400px;height: 400px;"></div>
+
+
+</div>
+
+<br>
+<br>
+<h1>Our book is downloadable for free as an e-book or as a soft copy in the format of a .pptx(presentation) file that can be downloaded from the link below. Please download and read the book. Thank you.
+ <br><br>
+  <center> <a style="color: white;" href="book.pptx" name="ebook" name="e-book">Download</a></center>
+</h1>
+<br>
+<h1>
+This section of the page contains the sample of the book, please open it and view the first 5 pages of our book.
+<br>
+<br>
+<center><a style="color:white" href="bookturn.html">Sample View</a></center>
+   <br>
+</h1>
+<h1>
+If you are having trouble reading the book or do not have the habit of reading, please listen to the audio files below which are in an audiofile format. They are as effective as our book. The audiobooks are subdivided into 4 Parts. Thank you.
+<br>
+<br>
+<audio controls>
+   <source src="ab1.mp3" type="audio/mp3"><br>
+ Your browser does not support the audio element.
+ </audio>
+ <audio controls>
+   <source src="ab2.mp3" type="audio/mp3"><br>
+ Your browser does not support the audio element.
+ </audio>
+ <audio controls>
+   <source src="ab3.mp3" type="audio/mp3"><br>
+ Your browser does not support the audio element.
+ </audio>
+ <audio controls>
+   <source src="ab4.mp3" type="audio/mp3"><br>
+ Your browser does not support the audio element.
+ </audio>
+ <br>
+</h1>
+<script>
+   let imageEle = document.querySelector('.myimage');
+   let resultEle = document.querySelector('.myresult');
+   enlargeImage(imageEle, resultEle);
+   function enlargeImage(imgEle, resultEle) {
+      var zoomLens, xPos, yPos;
+      zoomLens = document.createElement("DIV");
+      zoomLens.setAttribute("class", "img-zoom-zoomLens");
+      imgEle.parentElement.insertBefore(zoomLens, imgEle);
+      xPos = resultEle.offsetWidth / zoomLens.offsetWidth;
+      yPos = resultEle.offsetHeight / zoomLens.offsetHeight;
+      resultEle.style.backgroundImage = `url(${imgEle.src})`;
+      resultEle.style.backgroundSize = (imgEle.width * xPos) + "px " + (imgEle.height * yPos) + "px";
+      zoomLens.addEventListener("mousemove", lensMoveCalculate);
+      imgEle.addEventListener("mousemove", lensMoveCalculate);
+      zoomLens.addEventListener("touchmove", lensMoveCalculate);
+      imgEle.addEventListener("touchmove", lensMoveCalculate);
+      function lensMoveCalculate(e) {
+         var pos, x, y;
+         pos = currentCursonPos(e);
+         x = pos.x - (zoomLens.offsetWidth / 2);
+         y = pos.y - (zoomLens.offsetHeight / 2);
+         if (x > imgEle.width - zoomLens.offsetWidth) {x = imgEle.width - zoomLens.offsetWidth;}
+         if (x < 0) {x = 0;}
+         if (y > imgEle.height - zoomLens.offsetHeight) {y = imgEle.height - zoomLens.offsetHeight;}
+         if (y < 0) {y = 0;}
+         zoomLens.style.left = x + "px";
+         zoomLens.style.top = y + "px";
+         resultEle.style.backgroundPosition = "-" + (x * xPos) + "px -" + (y * yPos) + "px";
+      }
+      function currentCursonPos(e) {
+         var a, x = 0, y = 0;
+         e = e || window.event;
+         a = imgEle.getBoundingClientRect();
+         x = e.pageX - a.left;
+         y = e.pageY - a.top;
+         x = x - window.pageXOffset;
+         y = y - window.pageYOffset;
+         return {x : x, y : y};
+      }
+   }
+</script>
+<br>
+<br>
+<br>
+
+
+
+</body>
+</html>
